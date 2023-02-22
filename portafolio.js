@@ -1,5 +1,8 @@
-const volver=document.getElementById('icon-reply')
+const volver=document.getElementById('regresar')
 
 volver=addEventListener('click',()=>{
-    window.location.href='./index.html'
+    setTimeout(()=>{
+        //location='./index.html'
+        console.log('1')
+    })
 })
