@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./Imagenes/Fondo\ de\ ventana.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.titulo {
+  margin-top: 10px;
+  width: 98%;
+  margin-left: 1%;
+  background-color: white;
+}
+
+#titulo1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.lista {
+  margin-top: 10px;
+  width: 98%;
+  margin-left: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carta {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.cabecera {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cuerpo {
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#pokedex{
+    width: 300px;
+    margin-left: 9%;
+}
+
+#calculadora{
+    width: 300px;
+    margin-left: 9%;
+}
+
+#termometro{
+    width: 300px;
+    margin-left: 9%;
+}
+
+#tarjetas{
+    width: 300px;
+    margin-left: 9%;
+}
+
+#juegoMemoria{
+    width: 300px;
+    margin-left: 9%;
+}
+
+.icon {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
