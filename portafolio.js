@@ -1,8 +1,11 @@
-const volver=document.getElementById('regresar')
+const volver=document.getElementById('volver')
 
-volver=addEventListener('click',()=>{
-    setTimeout(()=>{
-        //location='./index.html'
-        console.log('1')
-    })
+volver.addEventListener('click',()=>{
+    location='./index.html'
+})
+
+const paginaTrabajos=document.getElementById('tres')
+
+paginaTrabajos.addEventListener('click',()=>{
+    location='./trabajos.html'
 })
